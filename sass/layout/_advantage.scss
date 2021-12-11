@@ -9,28 +9,19 @@
 }
 
 .advantage__thumb {
+  @include flex-position();
   width: 270px;
   height: 120px;
   background-color: var(--secondary-section-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 4px;
   margin-bottom: 30px;
 }
 
 .advantage__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 1.14, 0.03em, null);
   text-transform: uppercase;
-
   margin-bottom: 10px;
 }
 .advantage__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  @include font(400, 14px, 1.71, 0.03em, var(--secondary-text-color));
 }
