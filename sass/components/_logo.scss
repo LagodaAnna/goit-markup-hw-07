@@ -2,9 +2,4 @@
   display: block;
   font-family: Raleway, sans-serif;
   @include font(700, 26px, 1.2, 0.03em, var(--accent-color));
-  // font-weight: 700;
-  // font-size: 26px;
-  // line-height: 1.2;
-  // letter-spacing: 0.03em;
-  // color: var(--accent-color);
 }
